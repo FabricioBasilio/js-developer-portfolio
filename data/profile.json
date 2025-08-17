@@ -13,15 +13,31 @@
     "hardSkills": [
       {
         "nome": "CSS",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/FabricioBasilio/js-developer-portfolio/refs/heads/projeto-base/data/imgs/css.png"
       },
       {
         "nome": "JavaScript",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/FabricioBasilio/js-developer-portfolio/refs/heads/projeto-base/data/imgs/js.png"
       },
       {
-        "nome": "SASS",
-        "logo": "TODO"
+        "nome": "HTML",
+        "logo": "https://raw.githubusercontent.com/FabricioBasilio/js-developer-portfolio/refs/heads/projeto-base/data/imgs/html.png"
+      },
+      {
+        "nome": "GitHub",
+        "logo": "https://raw.githubusercontent.com/FabricioBasilio/js-developer-portfolio/refs/heads/projeto-base/data/imgs/github.png"
+      },
+      {
+        "nome": "Git",
+        "logo": "https://raw.githubusercontent.com/FabricioBasilio/js-developer-portfolio/refs/heads/projeto-base/data/imgs/git.png"
+      },
+      {
+        "nome": "React",
+        "logo": "https://raw.githubusercontent.com/FabricioBasilio/js-developer-portfolio/refs/heads/projeto-base/data/imgs/react.png"
+      },
+      {
+        "nome": "VS Code",
+        "logo": "https://raw.githubusercontent.com/FabricioBasilio/js-developer-portfolio/refs/heads/projeto-base/data/imgs/vscode.png"
       }
     ],
     "softSkills": [
