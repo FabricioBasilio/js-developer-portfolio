@@ -58,13 +58,22 @@ function updatePortfolio(portfolio) {
     .join("");
 }
 
+function updateProfessionalExperience(experiencias) {
+  const professionalExperienceElement = document.getElementById("profile_professionalExperience")
+
+  if (experiencias.length === 0) professionalExperienceElement.innerHTML = `<li>
+              Ainda sem experiência profissional em desenvolvimento front-end.
+            </li>`
+}
+
 (async () => {
   const profileData = await fetchProfileData();
-  console.log(profileData);
+  console.log(profileData.experiencias);
 
   updateProfileInfo(profileData);
   updateSoftSkills(profileData.skills.softSkills);
   updateHardSkills(profileData.skills.hardSkills);
   updateLanguages(profileData.idiomas);
   updatePortfolio(profileData.portfolio);
+  updateProfessionalExperience(profileData.experiencias);
 })();
