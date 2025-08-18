@@ -92,12 +92,12 @@
   "portfolio": [
     {
       "nome": "Construindo uma Pokédex com JavaScript",
-      "gitHub": "https://github.com/FabricioBasilio/js-developer-pokedex",
+      "url": "https://github.com/FabricioBasilio/js-developer-pokedex",
       "certificado": "https://www.dio.me/certificate/FUHMNE9G"
     },
     {
       "nome": "Construindo um Layout Responsivo Para o Site do Discord Com CSS",
-      "gitHub": "https://github.com/FabricioBasilio/desafio-responsividade-dio",
+      "url": "https://github.com/FabricioBasilio/desafio-responsividade-dio",
       "certificado": "https://www.dio.me/certificate/5ZMKZMZC"
     }
   ],

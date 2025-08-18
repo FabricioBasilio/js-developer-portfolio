@@ -24,17 +24,38 @@ function updateProfileInfo(profileData) {
 
 function updateSoftSkills(softSkills) {
   const softSkillsList = document.getElementById("profile_soft_skills");
-  softSkillsList.innerHTML = softSkills.map((skill) => `<li>${skill}</li>`).join("");
+  softSkillsList.innerHTML = softSkills
+    .map((skill) => `<li>${skill}</li>`)
+    .join("");
 }
 
 function updateHardSkills(hardSkills) {
   const hardSkillsList = document.getElementById("profile_hard_skills");
-  hardSkillsList.innerHTML = hardSkills.map((skill) => `<li><img src="${skill.logo}" alt="${skill.nome}" title="${skill.nome}" /></li>`).join("");
+  hardSkillsList.innerHTML = hardSkills
+    .map(
+      (skill) =>
+        `<li><img src="${skill.logo}" alt="${skill.nome}" title="${skill.nome}" /></li>`
+    )
+    .join("");
 }
 
 function updateLanguages(idiomas) {
   const idiomasList = document.getElementById("profile_idiomas");
-  idiomasList.innerHTML = idiomas.map(idioma => `<li>${idioma.nome} (${idioma.nivel})</li>`).join("")
+  idiomasList.innerHTML = idiomas
+    .map((idioma) => `<li>${idioma.nome} (${idioma.nivel})</li>`)
+    .join("");
+}
+
+function updatePortfolio(portfolio) {
+  const portfolioElement = document.getElementById("profile_portfolio");
+  portfolioElement.innerHTML = portfolio
+    .map((project) => {
+      return `<li>
+      <h3 class="title github">${project.nome}</h3>
+      <a href="${project.url}" target="_blank">${project.url}</a>
+      </li>`;
+    })
+    .join("");
 }
 
 (async () => {
@@ -45,6 +66,5 @@ function updateLanguages(idiomas) {
   updateSoftSkills(profileData.skills.softSkills);
   updateHardSkills(profileData.skills.hardSkills);
   updateLanguages(profileData.idiomas);
-
-
+  updatePortfolio(profileData.portfolio);
 })();
