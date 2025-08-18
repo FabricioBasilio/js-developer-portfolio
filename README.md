@@ -15,4 +15,4 @@ Neste projeto disponibilizado pela DIO (Digital Innovation One) desenvolvi o Jav
 - Uso do JavaScript para coletar os dados de um arquivo JSON.
 
 ## Acesso ao projeto
-Você pode acessar o projeto através do link abaixo da descrição do repositório.
+Você pode acessar o projeto através do link abaixo da descrição do repositório ou clicando [aqui](https://fabriciobasilio.github.io/js-developer-portfolio/).
