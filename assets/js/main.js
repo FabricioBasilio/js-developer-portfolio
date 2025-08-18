@@ -68,7 +68,6 @@ function updateProfessionalExperience(experiencias) {
 
 (async () => {
   const profileData = await fetchProfileData();
-  console.log(profileData.experiencias);
 
   updateProfileInfo(profileData);
   updateSoftSkills(profileData.skills.softSkills);
